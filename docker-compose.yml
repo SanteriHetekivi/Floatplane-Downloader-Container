@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  floatplane_downloader:
+    image: santerihetekivi/floatplane-downloader-container:0.1
+    volumes: 
+      - ./config/settings.json:/floatplane/settings.json
+      - ./config/partial.json:/floatplane/partial.json
+      - ./config/videos.json:/floatplane/videos.json
+      - ./videos:/floatplane/videos

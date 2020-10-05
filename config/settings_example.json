@@ -1,0 +1,60 @@
+{
+    "version": "4.6.3",
+    "videoFolder": "./videos/",
+    "maxVideos": 5,
+    "maxParallelDownloads": -1,
+    "repeatScript": "1h",
+    "extras": {
+        "downloadArtwork": true,
+        "artworkFormat": "png",
+        "saveNfo": false
+    },
+    "fileFormatting": {
+        "formatWithEpisodes": true,
+        "formatWithDate": false,
+        "formatWithSubChannel": true,
+        "yearsAsSeasons": false,
+        "monthsAsSeasons": false,
+        "ignoreFolderStructure": false,
+        "countFromOne": false
+    },
+    "ffmpeg": true,
+    "downloadUpdateTime": 250,
+    "checkForNewSubscriptions": true,
+    "TheWANShow": {
+        "enabled": false,
+        "audio": {
+            "quality": "highest",
+            "saveSeperately": false
+        },
+        "video": {
+            "quality": "highest",
+            "saveSeperately": false
+        },
+        "combineAndSaveAudioVideo": true,
+        "downloadThreads": 5,
+        "downloadArtwork": true
+    },
+    "subscriptions": {},
+    "autoFetchServer": true,
+    "floatplaneServer": "https://edge01-na.floatplane.com",
+    "video_res": 1080,
+    "logging": false,
+    "logFile": "./float.log",
+    "plexSection": "0",
+    "remotePlexUpdates": {
+        "enabled": false,
+        "serverIPAddr": "",
+        "serverPort": 32400,
+        "plexToken": ""
+    },
+    "localPlexUpdates": {
+        "enabled": false,
+        "plexScannerInstall": "C:/Program Files (x86)/Plex/Plex Media Server/Plex Media Scanner.exe"
+    },
+    "user": "YOUR_USERNAME_HERE",
+    "password": "YOUR_PASSWORD_HERE",
+    "key": "YOUR_KEY_HERE",
+    "cookie": [],
+    "cookies": {}
+}
