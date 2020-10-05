@@ -9,7 +9,7 @@ Docker container for [Floatplane Club - PlexDownloader](https://github.com/Inrix
 3. Run `docker-compose up` in directory that [compose](docker-compose.yml) file exists.
 
 ## Using DockerHub volume.
-* Use volume [`santerihetekivi/floatplane-downloader-container`]()
+* Use volume [`santerihetekivi/floatplane-downloader-container`](https://hub.docker.com/r/santerihetekivi/floatplane-downloader-container).
 * Mount same files and directories that [`docker-compose.yml`](docker-compose.yml) file has.
 
 ## Building with [Dockerfile](Dockerfile).
